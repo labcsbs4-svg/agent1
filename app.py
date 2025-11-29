@@ -28,7 +28,8 @@ st.markdown("""
     I'm Creative Solutions Inc. company's Knowledge Base Agent.
     \nAsk me anything about our company! 
     \nI can answer questions about our products, policies, and history.
-    
+""")
+st.markdown("""
     **Example questions:**
     * Tell me about the company
     * What all products does the company offer ?
