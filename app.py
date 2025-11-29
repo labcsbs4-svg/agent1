@@ -36,7 +36,7 @@ st.markdown("""
     * What is InnovateHub?
     * How many vacation days do we get?
     * What is the work-from-home policy ?
-    * ...and much more.. Happy to assist you !!
+    * And much more.... Happy to assist you !!
 """)
 
 
