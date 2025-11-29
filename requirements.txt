@@ -10,7 +10,7 @@ langchain-text-splitters==0.2.2
 
 # Google Gemini (chat model)
 langchain-google-genai==1.0.7
-google-generativeai==0.8.3
+google-generativeai==0.7.2
 
 # Local embeddings + vector store
 sentence-transformers==3.1.1
@@ -19,6 +19,4 @@ chromadb==0.5.4
 # Document loaders
 pypdf==4.3.1
 
-# File loading with Unstructured (Markdown)
-unstructured[md]==0.15.0
 
