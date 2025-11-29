@@ -25,14 +25,16 @@ load_dotenv()
 st.set_page_config(page_title="ClearQuery AI", page_icon="📚")
 st.title("📚 ClearQuery AI")
 st.markdown("""
-    I'm Creative Solutions Inc. Company's Knowledge Base Agent
     Ask me anything about our company! 
-    I can answer questions about our products, policies, and history. :-)
+    I can answer questions about our products, policies, and history.
     
     **Example questions:**
+    * Tell me about the company
+    * What all products does the company offer ?
     * What is InnovateHub?
     * How many vacation days do we get?
-    * Tell me about the company.
+    * What is the work-from-home policy ?
+    ... and much more.. Happy to assist you !!
 """)
 
 
