@@ -22,11 +22,12 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 load_dotenv()
 
 # --- App Configuration ---
-st.set_page_config(page_title="Company Knowledge Base", page_icon="📚")
-st.title("📚 Company Knowledge Base Agent")
+st.set_page_config(page_title="ClearQuery AI", page_icon="📚")
+st.title("📚 ClearQuery AI")
 st.markdown("""
+    I'm Creative Solutions Inc. Company's Knowledge Base Agent
     Ask me anything about our company! 
-    I can answer questions about our products, policies, and history.
+    I can answer questions about our products, policies, and history. :-)
     
     **Example questions:**
     * What is InnovateHub?
