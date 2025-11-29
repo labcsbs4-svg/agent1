@@ -51,10 +51,10 @@ def get_retrieval_chain():
     Initializes and returns a retrieval chain.
     This function is cached to avoid expensive re-initialization on every app rerun.
     """
-    google_api_key = os.getenv("GOOGLE_API_KEY")
+    google_api_key = os.getenv("GOOGLE_API_KEY") or st.secrets.get("GOOGLE_API_KEY")
     if not google_api_key:
-        st.error("Google API Key not found. Please set it in your .env file.")
-        st.stop()
+    st.error("Google API Key not found. Please set GOOGLE_API_KEY in Streamlit secrets or environment.")
+    st.stop()
 
     # 1. Local embeddings (NO Google embeddings → no quota issues)
     embeddings = HuggingFaceEmbeddings(
