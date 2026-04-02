@@ -68,7 +68,7 @@ def get_retrieval_chain():
 
     # 2. Gemini chat model (only for generation, not embeddings)
     llm = ChatGoogleGenerativeAI(
-        model="gemini-2.0-flash",
+        model="gemini-2.5-flash",
         google_api_key=google_api_key,
         temperature=0.3,
     )
